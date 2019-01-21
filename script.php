@@ -1,4 +1,4 @@
-function addNumbers($a, $b) {
+function addeliadd($a, $b) {
   $sum = $a + $b;
   return $sum;
 }
