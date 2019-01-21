@@ -1,4 +1,4 @@
-#Gestricia
+# Gestricia
 
 Syftet är att göra en webbsida åt Gestricia Redovisning AB. Webbplatsen ska vara nytänkande, lekfull och inte lika stel som konkurrerande redovisningsbyråer.
 
@@ -7,5 +7,5 @@ På konkurrerande webbsidor känns mycket skrivet för kunder som redan vet vad 
 Detta är ett samarbete mellan Ellinor Stenhaug och Mikaela Johansson. Det som har ingått i arbete är allt från design, layout, foto och kod. 
 
 
-##ellinor
-##mikaela
+## ellinor
+## mikaela
