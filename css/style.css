@@ -46,6 +46,15 @@ p {
 }
 
 .icon-block {
+  width: 140px;
+  height: 160px;
+  padding: 0 15px;
+}
+
+.mobile-pink {
+  background-color: #D1517A;
+  width: 140px;
+  height: 160px;
   padding: 0 15px;
 }
 .icon-block .material-icons {
