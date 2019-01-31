@@ -53,9 +53,27 @@ p {
 
 .mobile-pink {
   background-color: #D1517A;
+  border-radius: 5px;
   width: 140px;
   height: 160px;
-  padding: 0 15px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+.mobile-orange {
+  background-color: #F39662;
+  border-radius: 5px;
+  width: 140px;
+  height: 160px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+.mobile-grey {
+  background-color: #BEB6AF;
+  border-radius: 5px;
+  width: 140px;
+  height: 160px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
 }
 .icon-block .material-icons {
   font-size: inherit;
