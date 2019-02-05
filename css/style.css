@@ -51,6 +51,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 
 .mobile-orange {
@@ -60,6 +61,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 
 .mobile-grey {
@@ -69,6 +71,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 
 .icon-block .material-icons {
