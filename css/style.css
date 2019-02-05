@@ -1,3 +1,4 @@
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -72,10 +73,22 @@ p {
   padding: 15px;
   margin: 0px 0px 20px 0px;
   color: white;
+
+}
+.mobile-white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 1rem;
+  color: black;
+
 }
 
 .icon-block .material-icons {
   font-size: inherit;
+}
+#white-text{
+  color: white;
 }
 
 footer.page-footer {
