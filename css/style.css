@@ -4,6 +4,11 @@
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
+
+ Lila: #605087
+ Grå: #BEB6AF
+ Orange: #F39662
+ Rosa: #D1517A
  */
 
 nav ul a,
@@ -58,6 +63,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 .mobile-orange {
   background-color: #F39662;
@@ -66,6 +72,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 .mobile-grey {
   background-color: #BEB6AF;
@@ -74,9 +81,20 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
+}
+.mobile-white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 1rem;
+  color: black;
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+#white-text{
+  color: white;
 }
 
 footer.page-footer {
