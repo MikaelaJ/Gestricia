@@ -1,7 +1,21 @@
+body {
+  font-family: 'noto serif', serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'poppins', sans-serif;
+}
+
+.header {
+  font-weight: bold !important;
+}
 
 nav ul a,
-nav .brand-logo {
-  color: #444;
+nav {
+  color: #605087;
+  background-color: white;
 }
 
 p {
@@ -9,7 +23,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #605087;
 }
 
 .parallax-container {
@@ -23,6 +37,121 @@ p {
   width: 100%;
 }
 
+.icons-index {
+  height: auto;
+  font-weight: 700;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 5% 5% 0% 5%;
+}
+
+/* .white-box{
+  background-color: white;
+  width: 290px !important;
+  height: 350px;
+  border-radius: 5px;
+  margin: 6%;
+} */
+.gestricia-pink {
+  color: black;
+  background-color: #D1517A;
+  border-radius: 5px;
+  width: 240px;
+  height: 160px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.gestricia-orange {
+  color: black;
+  background-color: #F39662;
+  border-radius: 5px;
+  width: 240px;
+  height: 160px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.gestricia-grey {
+  color: black;
+  background-color: #BEB6AF;
+  border-radius: 5px;
+  width: 240px;
+  height: 160px;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.why-me {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.why-me p {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4em;
+}
+
+#info-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-purple {
+  margin: auto;
+  padding: 30px 0px 0px 0px;
+  background-color: #605087;
+}
+
+img {
+  padding-top: 15px;
+}
+
+.section-orange {
+  padding: 30px 0px 20px 0px;
+  background-color: #F39662;
+}
+
+.section-orange h5 {
+  font-size: 3em;
+  margin: 2% 0% 5% 0%;
+}
+
+.section-orange h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #F39662;
+}
+
+.section-orange i {
+  color: #F39662;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  color: #F39662;
+}
+
+footer.page-footer p {
+  font-family: 'Poppins', sans-serif;
+}
+
+footer.page-footer h5 {
+  font-weight: 700;
+}
+
+footer.page-footer a {
+  font-weight: 700;
+}
+
+footer.page-footer li {
+  font-family: 'Poppins', sans-serif;
+}
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -31,67 +160,38 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .section-orange h5 {
+    font-size: 2.3em;
+  }
 }
 
+/* -------------------------MOBILE------------------------------- */
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
+  .section-orange img {
+    display: none;
+  }
+  .section-orange h5 {
+    font-size: 1.4em;
+  }
+  /* .white-box {
+    display: none;
+  } */
+  .gestricia-pink {
+    width: 140px;
+    height: 160px;
+  }
+  .gestricia-orange {
+    width: 140px;
+    height: 160px;
+  }
+  .gestricia-grey {
+    width: 140px;
+    height: 160px;
+  }
 }
 
-.icon-block {
-  width: 140px;
-  height: 160px;
-  padding: 0 15px;
-}
-
-.mobile-pink {
-  background-color: #D1517A;
-  border-radius: 5px;
-  width: 140px;
-  height: 160px;
-  padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
-}
-
-.mobile-orange {
-  background-color: #F39662;
-  border-radius: 5px;
-  width: 140px;
-  height: 160px;
-  padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
-}
-
-.mobile-grey {
-  background-color: #BEB6AF;
-  border-radius: 5px;
-  width: 140px;
-  height: 160px;
-  padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
-
-}
-.mobile-white {
-  background-color: white;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 1rem;
-  color: black;
-
-}
-
-.icon-block .material-icons {
-  font-size: inherit;
-}
-#white-text{
-  color: white;
-}
-
-footer.page-footer {
-  margin: 0;
-}
+/* -------------------------------------------------------- */
 /*# sourceMappingURL=style.css.map */
