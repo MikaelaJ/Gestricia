@@ -7,6 +7,7 @@ $orange-dark: rgb(235, 128, 66);
 $gray-dark: rgb(133, 127, 122);
 $pink-dark: rgb(179, 32, 78);
 
+$poppins: 'poppins', serif;
 
 body {
   font-family: 'noto serif', serif;
@@ -279,6 +280,7 @@ footer.page-footer {
   height: 40px;
   padding: 2px 0 !important;
   text-transform: uppercase;
+  font-family:$poppins;
 }
 
 .pink {
@@ -317,3 +319,89 @@ nav {
 }
 
 /* -------------------------------------------------------- */
+
+.contact-icon {
+  width:100%;
+  height:100%;
+}
+
+.input-field{
+  margin:0;
+}
+
+ /* label color */
+ .input-field label {
+  color: white;
+  font-family:$poppins;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: white !important;
+ }
+.input-field input[type=text].valid + label, .input-field input[type=email].valid + label, .materialize-textarea:focus:not([readonly]).valid + label, .input-field textarea.valid {
+color: $pink;
+}
+
+/* label underline focus color */
+ .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]), .input-field input[type=email]:focus {
+  // border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+ }
+/* valid color */
+.input-field input[type=text].valid {
+  // border-bottom: 1px solid $pink;
+  box-shadow: 0 1px 0 0 solid white;
+}
+// .input-field input[type=text].valid + label {
+//   // border-bottom: 1px solid $pink;
+//   color:$pink;
+// }
+/* invalid color */
+// .input-field input[type=text].invalid {
+//   border-bottom: 1px solid white;
+//   box-shadow: 0 1px 0 0 $pink;
+// }
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: white;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+  color: white !important;
+}
+
+/* label underline focus color */
+.row .input-field input, .row .input-field select, .row .input-field textarea {
+  border-bottom: 1px   solid white !important;
+  color: white;
+  // box-shadow: 0 1px 0 0 $gray !important
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.vl {
+  height:600px;
+  margin-top:30px;
+  width:1px !important;
+  background-color: #fff;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color:$purple !important;
+  margin-right:40px;
+  font-family: $poppins; 
+}
+  
+.dropdown-content{
+  width:auto !important;
+}
+
+.separator {
+  height:40px;
+  width:100%;
+}
