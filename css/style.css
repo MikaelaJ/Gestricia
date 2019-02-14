@@ -5,7 +5,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'poppins', sans-serif;
+  font-family: 'poppins';
 }
 
 .header {
@@ -42,57 +42,51 @@ p {
   -ms-flex-line-pack: center;
       align-content: center;
   margin: 5% 5% 0% 5%;
+  color: black;
 }
 
-/* .white-box{
+.white-box {
   background-color: white;
-  width: 290px !important;
-  height: 350px;
+  width: 85% !important;
+  height: 400px;
   border-radius: 5px;
-  margin: 6%;
-} */
+  margin: 5% 0% 15% 0%;
+}
+
+.white-box p {
+  padding: 0% 10% 0% 10%;
+}
+
+.white-box img {
+  padding-top: 1%;
+  width: 80%;
+}
+
 .gestricia-pink {
   color: black;
   background-color: #D1517A;
   border-radius: 5px;
-  width: 240px;
-  height: 160px;
+  width: 88%;
   padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
+  margin: -5% 0% 10% 0%;
 }
 
 .gestricia-orange {
   color: black;
   background-color: #F39662;
   border-radius: 5px;
-  width: 240px;
-  height: 160px;
+  width: 88%;
   padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
+  margin: -5% 0% 10% 0%;
 }
 
 .gestricia-grey {
   color: black;
   background-color: #BEB6AF;
   border-radius: 5px;
-  width: 240px;
-  height: 160px;
+  width: 88%;
   padding: 15px;
-  margin: 0px 0px 20px 0px;
-  color: white;
-}
-
-.why-me {
-  background-color: white;
-  border-radius: 5px;
-  padding: 15px;
-}
-
-.why-me p {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.4em;
+  margin: -5% 0% 10% 0%;
 }
 
 #info-text {
@@ -100,13 +94,13 @@ p {
 }
 
 .section-purple {
-  margin: auto;
-  padding: 30px 0px 0px 0px;
+  margin: 0% 0% -20% 0%;
+  padding: 5% 15% 5% 15%;
   background-color: #605087;
 }
 
 .section-orange {
-  padding: 30px 0px 20px 0px;
+  padding: 15% 12% 10% 10%;
   background-color: #F39662;
 }
 
@@ -118,11 +112,20 @@ p {
 .section-orange h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  color: #F39662;
 }
 
 .section-orange i {
   color: #F39662;
+}
+
+.section-orange .why-me {
+  border-radius: 5px;
+  padding: 3% 5% 3% 5%;
+}
+
+.section-orange .why-me p {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4em;
 }
 
 .icon-block .material-icons {
@@ -164,26 +167,31 @@ footer.page-footer a:hover {
   #index-banner .section {
     top: 0;
   }
+  .section-purple {
+    margin: 0% 0% 0% 0%;
+    padding: 10%;
+    background-color: #605087;
+  }
   .section-orange img {
     display: none;
   }
   .section-orange h5 {
     font-size: 1.4em;
   }
-  /* .white-box {
-    display: none;
-  } */
   .gestricia-pink {
     width: 140px;
     height: 160px;
+    margin: 5%;
   }
   .gestricia-orange {
     width: 140px;
     height: 160px;
+    margin: 5%;
   }
   .gestricia-grey {
     width: 140px;
     height: 160px;
+    margin: 5%;
   }
 }
 
