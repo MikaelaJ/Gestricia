@@ -14,12 +14,11 @@ h3 {
 
 nav ul a,
 nav {
-  color: #605087;
-  background-color: white;
+  color: black;
 }
 
 p {
-  line-height: 2rem;
+  font-family: 'poppins', serif;
 }
 
 .sidenav-trigger {
@@ -60,6 +59,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 
 .gestricia-orange {
@@ -70,6 +70,7 @@ p {
   height: 160px;
   padding: 15px;
   margin: 0px 0px 20px 0px;
+  color: white;
 }
 
 .gestricia-grey {
@@ -102,10 +103,6 @@ p {
   margin: auto;
   padding: 30px 0px 0px 0px;
   background-color: #605087;
-}
-
-img {
-  padding-top: 15px;
 }
 
 .section-orange {
@@ -141,16 +138,12 @@ footer.page-footer p {
   font-family: 'Poppins', sans-serif;
 }
 
-footer.page-footer h5 {
-  font-weight: 700;
-}
-
-footer.page-footer a {
-  font-weight: 700;
-}
-
 footer.page-footer li {
   font-family: 'Poppins', sans-serif;
+}
+
+footer.page-footer a:hover {
+  color: #F39662 !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -202,6 +195,26 @@ footer.page-footer li {
   background-color: #D1517A;
 }
 
+.orange-bg {
+  background-color: #F39662;
+}
+
+.gray-bg {
+  background-color: #BEB6AF;
+}
+
+.gray-bg-hover:hover {
+  background-color: #857f7a !important;
+}
+
+.orange-bg-hover:hover {
+  background-color: #eb8042 !important;
+}
+
+.pink-bg-hover:hover {
+  background-color: #b3204e !important;
+}
+
 .pb-2 {
   padding-bottom: 20px;
 }
@@ -247,4 +260,32 @@ footer.page-footer li {
 .pink {
   background-color: #D1517A !important;
 }
+
+nav .dropdown-content {
+  top: 100% !important;
+  width: auto !important;
+}
+
+nav .dropdown-content a {
+  color: black;
+}
+
+nav .dropdown-content a:hover {
+  color: #F39662 !important;
+}
+
+nav .sidenav li a {
+  height: auto;
+  line-height: 3em;
+}
+
+nav .sidenav .nav-item-wrap {
+  margin: 30px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------- */
 /*# sourceMappingURL=style.css.map */
