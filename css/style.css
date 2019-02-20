@@ -103,6 +103,7 @@ p {
 .section-purple a {
   text-decoration: none;
   color: inherit;
+  text-align: center;
 }
 
 .section-orange {
@@ -351,10 +352,6 @@ nav .dropdown-content a {
   color: black;
 }
 
-nav .dropdown-content a:hover {
-  color: #F39662 !important;
-}
-
 nav .sidenav li a {
   height: auto;
   line-height: 3em;
@@ -378,13 +375,11 @@ nav .sidenav .nav-item-wrap {
   margin: 0;
 }
 
-/* label color */
 .input-field label {
   color: white;
   font-family: "poppins", serif;
 }
 
-/* label focus color */
 .input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
   color: white !important;
 }
@@ -393,32 +388,28 @@ nav .sidenav .nav-item-wrap {
   color: #D1517A;
 }
 
-/* label underline focus color */
 .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]), .input-field input[type=email]:focus {
   -webkit-box-shadow: 0 1px 0 0 white !important;
           box-shadow: 0 1px 0 0 white !important;
 }
 
-/* valid color */
 .input-field input[type=text].valid {
+  border-bottom: 1px solid white !important;
   -webkit-box-shadow: 0 1px 0 0 solid white;
           box-shadow: 0 1px 0 0 solid white;
 }
 
-/* invalid color */
-/* icon prefix focus color */
 .input-field .prefix.active {
   color: white;
 }
 
-/* label focus color */
 .input-field input:focus + label {
   color: white !important;
 }
 
 /* label underline focus color */
 .row .input-field input, .row .input-field select, .row .input-field textarea {
-  border-bottom: 1px   solid white !important;
+  border-bottom: 1px solid white !important;
   color: white;
 }
 
@@ -440,7 +431,6 @@ nav .sidenav .nav-item-wrap {
 
 .dropdown-content li > a, .dropdown-content li > span {
   color: #605087 !important;
-  margin-right: 40px;
   font-family: "poppins", serif;
 }
 
