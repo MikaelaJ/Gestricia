@@ -113,6 +113,15 @@ section {
   text-align: center;
 }
 
+.review {
+  color: black;
+  background-color: #BEB6AF;
+  border-radius: 5px;
+  width: 95%;
+  padding: 5% 5% 5% 5%;
+  margin: 0% 0% 0% 0%;
+}
+
 .section-orange {
   padding: 15% 12% 10% 10%;
   background-color: #F39662;
@@ -130,6 +139,10 @@ section {
 
 .section-orange i {
   color: #F39662;
+}
+
+.section-orange img {
+  height: 50%;
 }
 
 .section-orange .why-me {
