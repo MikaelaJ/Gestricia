@@ -386,6 +386,14 @@ nav .sidenav .nav-item-wrap {
   font-weight: bold;
 }
 
+.mt-2 {
+  margin-top: 20px;
+}
+
+.pink-color-hover:hover {
+  color: #D1517A !important;
+}
+
 /* -------------------------------------------------------- */
 .contact-icon {
   width: 100%;

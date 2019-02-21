@@ -15,51 +15,57 @@
 </head>
 
 <body>
-    <nav class="white">
-        <div class="nav-wrapper container"><a id="logo-container" href="./index.html" class="brand-logo">
-                <img width="30px" src="img/gestricia_logo_original-03.svg" alt="Logo Gestricia"></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Tjänster<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="omgestricia.html">Om Gestricia</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="nav-wrapper container"><a id="logo-container" href="./index.html" class="brand-logo">
+                        <img width="30px" src="img/gestricia_logo_original-03.svg" alt="Logo Gestricia"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Tjänster<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="omgestricia.html">Om Gestricia</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
 
-            <ul id="nav-mobile" class="sidenav center-align">
-                <div class="nav-item-wrap">
-                    <li>
-                        <h5 class="bold">Tjänster</h5>
-                    </li>
-                    <li><a href="./redovisning.html">Redovisning</a></li>
-
-                    <li><a href="./bokslut.html">Bokslut</a></li>
-                    <li><a href="./deklaration.html">Deklaration</a></li>
-                    <li><a href="./startup.html">Uppstart</a></li>
-                    <li><a href="./loneadministration.html">Löneadministration</a></li>
-                    <li><a href="./foretagsradgivning.html">Företagsrådgivning</a></li>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <!-- <li><a href="./kontakt.html">Redovisning</a></li> -->
+                        <li><a href="./redovisning.html">Redovisning</a></li>
+                        <li><a href="./bokslut.html">Bokslut</a></li>
+                        <li><a href="./deklaration.html">Deklaration</a></li>
+                        <li><a href="./startup.html">Uppstart</a></li>
+                        <li><a href="./loneadministration.html">Löneadministration</a></li>
+                        <li><a href="./foretagsradgivning.html">Företagsrådgivning</a></li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 </div>
-                <!-- <li class="divider"></li> -->
-                <div class="nav-item-wrap">
+            </nav>
+        </div>
 
-                    <li>
-                        <h5 class="bold">Mer om oss</h5>
-                    </li>
-                    <li><a href="omgestricia.html">Om Gestricia</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                </div>
-            </ul>
-
-            <ul id="dropdown1" class="dropdown-content">
-                <!-- <li><a href="./kontakt.html">Redovisning</a></li> -->
+        <ul id="nav-mobile" class="sidenav center-align">
+            <div class="nav-item-wrap">
+                <li>
+                    <h5 class="bold">Tjänster</h5>
+                </li>
                 <li><a href="./redovisning.html">Redovisning</a></li>
+
                 <li><a href="./bokslut.html">Bokslut</a></li>
                 <li><a href="./deklaration.html">Deklaration</a></li>
                 <li><a href="./startup.html">Uppstart</a></li>
                 <li><a href="./loneadministration.html">Löneadministration</a></li>
                 <li><a href="./foretagsradgivning.html">Företagsrådgivning</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+            </div>
+            <!-- <li class="divider"></li> -->
+            <div class="nav-item-wrap">
+
+                <li>
+                    <h5 class="bold">Mer om oss</h5>
+                </li>
+                <li><a href="omgestricia.html">Om Gestricia</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </div>
+        </ul>
+
+    </header>
+
 
     <header>
         <div class="hero-section pb-2 gray-bg " id="index-banner">
@@ -84,6 +90,29 @@
     <section class="pb-2 orange-bg white-text">
         <div class="container pb-2 pt-3 ">
             <div class="row">
+                <div class="col l6 m6 s12 center-align offset-l3 offset-m3">
+                    <p>
+                        Du är välkommen att kontakta mig antingen genom kontaktuppgifterna som du hittar nedan, eller
+                        via kontaktformuläret.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l6 m6 s12 offset-l2">
+                    <h6>Kontaktuppgifter</h6>
+                    <p>Mail: <a href="mailto:tobias@gestricia.se" class="white-text pink-color-hover">tobias@gestricia.se</a></p>
+                    <p>Telefon: <a href="phone:0722000241" class="white-text pink-color-hover">072 200 02 41</a></p>
+                    <address>
+                        <p>Adress:<a class="white-text" target="_blank" href="https://goo.gl/maps/sjVS8ZH3SWx">Vretvägen
+                                25,
+                                812 40 Kungsgången</a>
+                        </p>
+                    </address>
+                    <p><a class="white-text" target="_blank" href="https://www.allabolag.se/5591622096/gestricia-redovisning-ab">Organisationsnummer:
+                            559162-2096 </a></p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col l6 m6 s12">
                     <img class="contact-icon" src="img/ikon_multi.svg" alt="">
                 </div>
@@ -93,7 +122,6 @@
                 <div class="col l5 m6 s12">
                     <div class="row">
                         <div class="col m4 l3 s4 offset-m8 offset-l9">
-
                             <img class="ikon-frimarke" src="img/ikon_frimarke.svg" alt="">
                         </div>
                     </div>
@@ -119,7 +147,7 @@
                             <div class="input-field col s12">
                                 <input id="company" type="text" class="validate" required>
                                 <label for="company">Företag</label>
-                                <span class="helper-text" data-error="Skulle väldigt gärna veta ditt namn!"></span>
+                                <span class="helper-text" data-error="Skulle väldigt gärna veta vart du jobbar!"></span>
                             </div>
                         </div>
                         <div class="separator"></div>
@@ -133,6 +161,7 @@
                                     <option value="4">Löneadministration</option>
                                     <option value="5">Redovisning</option>
                                     <option value="6">Startup</option>
+                                    <option value="6">Lämna omdöme</option>
                                     <option value="7">Övrigt</option>
                                 </select>
                                 <!-- <label>Välj ämne</label> -->
@@ -143,7 +172,7 @@
                             <div class="input-field col s12">
                                 <textarea id="textarea1" class="materialize-textarea" required></textarea>
                                 <label for="textarea1">Beskriv ditt ärende</label>
-                                <span class="helper-text" data-error="Skulle väldigt gärna veta ditt namn!"></span>
+                                <span class="helper-text" data-error="Skulle väldigt gärna veta varför du kontaktar mig!"></span>
                             </div>
                         </div>
                         <div class="row center-align">
