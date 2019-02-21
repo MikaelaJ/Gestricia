@@ -121,6 +121,14 @@ section {
   }
 }
 
+.review {
+  color: black;
+  background-color: $gray;
+  border-radius: 5px;
+  width: 95%;
+  padding: 5% 5% 5% 5%;
+  margin: 0% 0% 0% 0%;
+}
 
 
 .section-orange {
@@ -139,6 +147,9 @@ section {
 
   i {
     color: $orange;
+  }
+  img {
+    height: 50%;
   }
   .why-me {
     border-radius: 5px;
