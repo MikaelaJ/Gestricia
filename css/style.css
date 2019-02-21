@@ -475,4 +475,8 @@ nav .sidenav .nav-item-wrap {
   height: 40px;
   width: 100%;
 }
+
+address {
+  font-style: normal;
+}
 /*# sourceMappingURL=style.css.map */
