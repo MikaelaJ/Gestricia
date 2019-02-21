@@ -243,7 +243,7 @@ footer.page-footer {
   }
 
   .section-orange {
-    h5 {
+    h4 {
       font-size: 2.3em;
     }
   }
@@ -336,6 +336,10 @@ footer.page-footer {
 }
 .pink-bg-hover:hover {
   background-color: $pink-dark !important;
+}
+
+.pr-2 {
+  padding-right: 20px;
 }
 
 .pb-2 {
