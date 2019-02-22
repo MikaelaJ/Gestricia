@@ -55,13 +55,13 @@ section {
 .white-box {
   background-color: white;
   width: 100%;
-  height: 400px;
+  height: 450px;
   border-radius: 5px;
   margin: 5% 0% 15% 0%;
 }
 
 .white-box p {
-  padding: 0% 10% 0% 10%;
+  padding: 0% 5% 0% 5%;
 }
 
 .white-box img {
@@ -120,6 +120,12 @@ section {
   width: 95%;
   padding: 5% 5% 5% 5%;
   margin: 0% 0% 0% 0%;
+}
+
+.review a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
 }
 
 .section-orange {
