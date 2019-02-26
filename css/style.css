@@ -240,59 +240,38 @@ footer.page-footer a:hover {
   }
 }
 
-/* -------------------------MOBILE------------------------------- */
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-  .section-orange img {
-    display: none;
-  }
-  .section-orange h5 {
-    font-size: 1.4em;
-  }
-  .gestricia-pink {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-  }
-  .gestricia-pink img {
-    padding: 5% 0% 5% 0%;
-    width: 100%;
-    height: 100%;
-  }
-  .gestricia-pink h6 {
-    font-size: 1em;
-    word-wrap: break-word;
-  }
-  .gestricia-orange {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-  }
-  .gestricia-orange img {
-    padding: 5% 0% 5% 0%;
-    width: 100%;
-    height: 100%;
-  }
-  .gestricia-orange h6 {
-    font-size: 1em;
-    word-wrap: break-word;
-  }
-  .gestricia-grey {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-  }
-  .gestricia-grey img {
-    padding: 5% 0% 5% 0%;
-    width: 100%;
-    height: 100%;
-  }
-  .gestricia-grey h6 {
-    font-size: 1em;
-    word-wrap: break-word;
-  }
+.gestricia-orange {
+  width: 90%;
+  height: 195px;
+  margin: 10% 0% 5% 0%;
+}
+
+.gestricia-orange img {
+  padding: 5% 0% 5% 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.gestricia-orange h6 {
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.gestricia-grey {
+  width: 90%;
+  height: 195px;
+  margin: 10% 0% 5% 0%;
+}
+
+.gestricia-grey img {
+  padding: 5% 0% 5% 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.gestricia-grey h6 {
+  font-size: 1em;
+  word-wrap: break-word;
 }
 
 .purple-bg {
@@ -339,9 +318,31 @@ footer.page-footer a:hover {
   height: calc(30%-64px);
 }
 
-.overlay-img {
+.overlay-img_77 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 77%;
+     object-position: 0 77%;
   width: 100%;
-  height: calc(65vh - 64px) !important;
+  height: 55vh !important;
+}
+
+.overlay-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 50%;
+     object-position: 0 50%;
+  width: 100%;
+  height: 55vh !important;
+}
+
+.overlay-img_30 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 30%;
+     object-position: 0 30%;
+  width: 100%;
+  height: 55vh !important;
 }
 
 .v-align-icon {
@@ -419,15 +420,22 @@ nav .sidenav .nav-item-wrap {
   font-family: "poppins", serif;
 }
 
-.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
   color: white !important;
 }
 
-.input-field input[type=text].valid + label, .input-field input[type=email].valid + label, .materialize-textarea:focus:not([readonly]).valid + label, .input-field textarea.valid {
+.input-field input[type=text].valid + label,
+.input-field input[type=email].valid + label,
+.materialize-textarea:focus:not([readonly]).valid + label,
+.input-field textarea.valid {
   color: #D1517A;
 }
 
-.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]), .input-field input[type=email]:focus {
+.input-field input[type=text]:focus,
+.materialize-textarea:focus:not([readonly]),
+.input-field input[type=email]:focus {
   -webkit-box-shadow: 0 1px 0 0 white !important;
           box-shadow: 0 1px 0 0 white !important;
 }
@@ -447,7 +455,9 @@ nav .sidenav .nav-item-wrap {
 }
 
 /* label underline focus color */
-.row .input-field input, .row .input-field select, .row .input-field textarea {
+.row .input-field input,
+.row .input-field select,
+.row .input-field textarea {
   border-bottom: 1px solid white !important;
   color: white;
 }
@@ -468,7 +478,8 @@ nav .sidenav .nav-item-wrap {
   background-color: #fff;
 }
 
-.dropdown-content li > a, .dropdown-content li > span {
+.dropdown-content li > a,
+.dropdown-content li > span {
   color: #605087 !important;
   font-family: "poppins", serif;
 }
@@ -484,5 +495,56 @@ nav .sidenav .nav-item-wrap {
 
 address {
   font-style: normal;
+}
+
+/* -------------------------MOBILE------------------------------- */
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .section-orange img {
+    display: none;
+  }
+  .section-orange h5 {
+    font-size: 1.4em;
+  }
+  .gestricia-pink {
+    width: 90%;
+    height: 195px;
+    margin: 10% 0% 5% 0%;
+  }
+  .gestricia-pink img {
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .gestricia-pink h6 {
+    font-size: 1em;
+    word-wrap: break-word;
+  }
+  .overlay-img_77 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 77%;
+       object-position: 50% 77%;
+    width: 100%;
+    height: 55vh !important;
+  }
+  .overlay-img_30 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 30%;
+       object-position: 50% 30%;
+    width: 100%;
+    height: 55vh !important;
+  }
+  .overlay-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 30%;
+       object-position: 50% 30%;
+    width: 100%;
+    height: 55vh !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
