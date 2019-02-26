@@ -7,7 +7,8 @@ $orange-dark: rgb(235, 128, 66);
 $gray-dark: rgb(133, 127, 122);
 $pink-dark: rgb(179, 32, 78);
 
-$poppins: 'poppins', serif;
+$poppins: 'poppins',
+serif;
 
 body {
   font-family: 'noto serif', serif;
@@ -62,7 +63,7 @@ section {
   color: black;
 }
 
-.white-box{
+.white-box {
   background-color: white;
   width: 100%;
   height: 400px;
@@ -72,6 +73,7 @@ section {
   p {
     padding: 0% 10% 0% 10%;
   }
+
   img {
     padding-top: 1%;
     width: 80%;
@@ -114,6 +116,7 @@ section {
   margin: 0% 0% -20% 0%;
   padding: 5% 15% 5% 15%;
   background-color: $purple;
+
   a {
     text-decoration: none;
     color: inherit;
@@ -148,13 +151,15 @@ section {
   i {
     color: $orange;
   }
+
   img {
     height: auto;
   }
+
   .why-me {
     border-radius: 5px;
     padding: 3% 5% 3% 5%;
-  
+
     p {
       font-family: 'Poppins', sans-serif;
       line-height: 1.4em;
@@ -198,39 +203,45 @@ footer.page-footer {
     width: 90%;
     height: 210px;
     margin: 10% 0% 5% 0%;
+
     img {
       padding: 10% 10% 10% 10%;
       width: 100%;
       height: 90%;
     }
+
     h6 {
       font-size: 1.5em;
     }
   }
-  
+
   .gestricia-orange {
     width: 90%;
     height: 210px;
     margin: 10% 0% 5% 0%;
+
     img {
       padding: 10% 10% 10% 10%;
       width: 100%;
       height: 90%;
     }
+
     h6 {
       font-size: 1.5em;
     }
   }
-  
+
   .gestricia-grey {
     width: 90%;
     height: 210px;
     margin: 10% 0% 5% 0%;
+
     img {
       padding: 10% 10% 10% 10%;
       width: 100%;
       height: 90%;
     }
+
     h6 {
       font-size: 1.5em;
     }
@@ -249,66 +260,39 @@ footer.page-footer {
   }
 }
 
-/* -------------------------MOBILE------------------------------- */
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
+
+.gestricia-orange {
+  width: 90%;
+  height: 195px;
+  margin: 10% 0% 5% 0%;
+
+  img {
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 100%;
   }
 
-  .section-orange {
-    img {
-      display: none;
-    }
-    h5 {
-      font-size: 1.4em;
-    }
+  h6 {
+    font-size: 1em;
+    word-wrap: break-word;
+  }
+}
+
+.gestricia-grey {
+  width: 90%;
+  height: 195px;
+  margin: 10% 0% 5% 0%;
+
+  img {
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 100%;
   }
 
-  .gestricia-pink {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-    img {
-      padding: 5% 0% 5% 0%;
-      width: 100%;
-      height: 100%;
-    }
-    h6 {
-      font-size: 1em;
-      word-wrap: break-word;
-    }
+  h6 {
+    font-size: 1em;
+    word-wrap: break-word;
   }
-  
-  .gestricia-orange {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-    img {
-      padding: 5% 0% 5% 0%;
-      width: 100%;
-      height: 100%;
-    }
-    h6 {
-      font-size: 1em;
-      word-wrap: break-word;
-    }
-  }
-  
-  .gestricia-grey {
-    width: 90%;
-    height: 195px;
-    margin: 10% 0% 5% 0%;
-    img {
-      padding: 5% 0% 5% 0%;
-      width: 100%;
-      height: 100%;
-    }
-    h6 {
-      font-size: 1em;
-      word-wrap: break-word;
-    }
-  }
-
 }
 
 .purple-bg {
@@ -318,6 +302,7 @@ footer.page-footer {
 .pink-bg {
   background-color: $pink;
 }
+
 .orange-bg {
   background-color: $orange;
 
@@ -331,9 +316,11 @@ footer.page-footer {
 .gray-bg-hover:hover {
   background-color: $gray-dark !important;
 }
+
 .orange-bg-hover:hover {
   background-color: $orange-dark !important;
 }
+
 .pink-bg-hover:hover {
   background-color: $pink-dark !important;
 }
@@ -350,9 +337,30 @@ footer.page-footer {
   height: calc(30%-64px);
 }
 
-.overlay-img {
+.overlay-img_77 {
+  // width: 100%;
+  //   height: 65vh;
+  object-fit: cover;
+  object-position: 0 77%;
   width: 100%;
-  height: calc(65vh - 64px) !important;
+  height: 55vh !important;
+}
+.overlay-img {
+  // width: 100%;
+  //   height: 65vh;
+  object-fit: cover;
+  object-position: 0 50%;
+  width: 100%;
+  height: 55vh !important;
+}
+
+.overlay-img_30 {
+  // width: 100%;
+  //   height: 65vh;
+  object-fit: cover;
+  object-position: 0 30%;
+  width: 100%;
+  height: 55vh !important;
 }
 
 .v-align-icon {
@@ -375,7 +383,7 @@ footer.page-footer {
   height: 40px;
   padding: 2px 0 !important;
   text-transform: uppercase;
-  font-family:$poppins;
+  font-family: $poppins;
 }
 
 .pink {
@@ -410,54 +418,66 @@ nav {
 }
 
 .mt-2 {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 
 .pink-color-hover:hover {
-  color: $pink !important; 
+  color: $pink !important;
 }
 
 /* -------------------------------------------------------- */
 
 .contact-icon {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
 
-.input-field{
-  margin:0;
+.input-field {
+  margin: 0;
 }
 
- .input-field label {
+.input-field label {
   color: white;
-  font-family:$poppins;
+  font-family: $poppins;
 }
 
-.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+.input-field input[type=text]:focus+label,
+.input-field input[type=email]:focus+label,
+.materialize-textarea:focus:not([readonly])+label {
   color: white !important;
 }
-.input-field input[type=text].valid + label, .input-field input[type=email].valid + label, .materialize-textarea:focus:not([readonly]).valid + label, .input-field textarea.valid {
-color: $pink;
+
+.input-field input[type=text].valid+label,
+.input-field input[type=email].valid+label,
+.materialize-textarea:focus:not([readonly]).valid+label,
+.input-field textarea.valid {
+  color: $pink;
 }
 
- .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]), .input-field input[type=email]:focus {
+.input-field input[type=text]:focus,
+.materialize-textarea:focus:not([readonly]),
+.input-field input[type=email]:focus {
   box-shadow: 0 1px 0 0 white !important;
 }
+
 .input-field input[type=text].valid {
   border-bottom: 1px solid white !important;
   box-shadow: 0 1px 0 0 solid white;
 }
+
 .input-field .prefix.active {
   color: white;
 }
 
-.input-field input:focus + label {
+.input-field input:focus+label {
   color: white !important;
 }
 
 /* label underline focus color */
-.row .input-field input, .row .input-field select, .row .input-field textarea {
+.row .input-field input,
+.row .input-field select,
+.row .input-field textarea {
   border-bottom: 1px solid white !important;
   color: white;
   // box-shadow: 0 1px 0 0 $gray !important
@@ -469,27 +489,90 @@ color: $pink;
 }
 
 .vl {
-  height:600px;
-  margin-top:30px;
-  width:1px !important;
+  height: 600px;
+  margin-top: 30px;
+  width: 1px !important;
   background-color: #fff;
 }
 
-.dropdown-content li > a, .dropdown-content li > span {
-  color:$purple !important;
+.dropdown-content li>a,
+.dropdown-content li>span {
+  color: $purple !important;
   // margin-right:40px;
-  font-family: $poppins; 
+  font-family: $poppins;
 }
-  
-.dropdown-content{
-  width:auto !important;
+
+.dropdown-content {
+  width: auto !important;
 }
 
 .separator {
-  height:40px;
-  width:100%;
+  height: 40px;
+  width: 100%;
 }
 
 address {
-  font-style: normal; 
+  font-style: normal;
+}
+
+
+/* -------------------------MOBILE------------------------------- */
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .section-orange {
+    img {
+      display: none;
+    }
+
+    h5 {
+      font-size: 1.4em;
+    }
+  }
+
+  .gestricia-pink {
+    width: 90%;
+    height: 195px;
+    margin: 10% 0% 5% 0%;
+
+    img {
+      padding: 5% 0% 5% 0%;
+      width: 100%;
+      height: 100%;
+    }
+
+    h6 {
+      font-size: 1em;
+      word-wrap: break-word;
+    }
+  }
+
+  .overlay-img_77 {
+    // width: 100%;
+    //   height: 65vh;
+    object-fit: cover;
+    object-position: 50% 77%;
+    width: 100%;
+    height: 55vh !important;
+  }
+  .overlay-img_30 {
+    // width: 100%;
+    //   height: 65vh;
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 100%;
+    height: 55vh !important;
+  }
+  .overlay-img {
+    // width: 100%;
+    //   height: 65vh;
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 100%;
+    height: 55vh !important;
+  }
+
+
 }
