@@ -311,6 +311,15 @@ footer.page-footer a:hover {
   height: 55vh !important;
 }
 
+.overlay-img_60 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 60%;
+     object-position: 0 60%;
+  width: 100%;
+  height: 55vh !important;
+}
+
 .v-align-icon {
   position: relative;
   top: 5px;

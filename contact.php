@@ -88,7 +88,6 @@ if(isset($_POST['submit'])){
                 <li><a href="contact.php">Kontakt</a></li>
             </div>
         </ul>
-
     </header>
 
 
@@ -138,7 +137,7 @@ if(isset($_POST['submit'])){
             </div>
             <div class="row">
                 <div class="col l6 m6 s12">
-                    <img class="contact-icon hide-on-med-and-down" src="img/ikon_multi.svg" alt="">
+                    <img class="contact-icon hide-on-med-and-down" src="img/ikon_multi.png" alt="">
                 </div>
                 <div class="col l1 flex hide-on-med-and-down">
                     <div class="vl"></div>
