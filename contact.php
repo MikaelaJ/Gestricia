@@ -1,3 +1,25 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "info@gestricia.se"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $company = $_POST['company'];
+    $subject = $_POST['dropdown'];
+    // $subject = "tjenare!";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . ", som kommer från " . $company . ", behöver hjälp med " . $subject . "." . "\n\nMeddelande:" . $_POST['message'];
+    $message2 = "Hej " . $first_name . "! \nHär är en kopia på ditt meddelande du skickade till " . $to . "\n\nNamn: " . $first_name . " " . $last_name . "\nFöretag: " . $company . "\nÄmne: " . $subject . "\nMeddelande: " . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Tack " . $first_name . "! Vi kontaktar dig snarast.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -128,6 +150,17 @@
                             <img class="ikon-frimarke" src="img/ikon_frimarke.svg" alt="">
                         </div>
                     </div>
+
+                    <!-- <form action="" method="post">
+                        First Name: <input type="text" name="first_name"><br>
+                        Last Name: <input type="text" name="last_name"><br>
+                        Email: <input type="text" name="email"><br>
+                        Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+                        <input type="submit" name="submit" value="Submit">
+                    </form> -->
+
+
+
                     <form action="" method="POST">
                         <div class="row">
                             <div class="input-field col s12 ">
@@ -148,7 +181,8 @@
                                 <div class="input-field">
                                     <input id="email_inline" type="email" class="validate" name="email" required>
                                     <label for="email_inline">Email</label>
-                                    <!-- <span class="helper-text" data-error="Denna emailadress är lite suspekt. Testa en annan!" data-success="Korrekt!"></span> -->
+                                    <span class="helper-text" data-error="Denna emailadress är lite suspekt. Testa en annan!"
+                                        data-success="Korrekt!"></span>
                                     <span class="helper-text" data-error="Denna emailadress är lite suspekt. Testa en annan!"></span>
                                 </div>
                             </div>
@@ -163,16 +197,16 @@
                         <div class="separator"></div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <select name="drowdown">
+                                <select name="dropdown">
                                     <option value="" disabled selected>Välj ett ämne</option>
-                                    <option value="1">Bokslut</option>
-                                    <option value="2">Deklaration</option>
-                                    <option value="3">Företagsrådgivning</option>
-                                    <option value="4">Löneadministration</option>
-                                    <option value="5">Redovisning</option>
-                                    <option value="6">Startup</option>
-                                    <option value="6">Lämna omdöme</option>
-                                    <option value="7">Övrigt</option>
+                                    <option value="bokslut">Bokslut</option>
+                                    <option value="deklaration">Deklaration</option>
+                                    <option value="företagsrådgivning">Företagsrådgivning</option>
+                                    <option value="löneadministration">Löneadministration</option>
+                                    <option value="redovisning">Redovisning</option>
+                                    <option value="startup">Startup</option>
+                                    <option value="omdöme">Lämna omdöme</option>
+                                    <option value="övrigt">Övrigt</option>
                                 </select>
                                 <!-- <label>Välj ämne</label> -->
                                 <span class="helper-text" data-error="Skulle väldigt gärna veta ditt namn!"></span>
@@ -187,7 +221,7 @@
                         </div>
                         <div class="row center-align">
                             <div class="col l12 m12 s10 offset-s1 ">
-                                <input type="submit" name="action" value="Kontakta mig" class="btn waves-effect waves-light selling-button pink-bg pink-bg-hover"></input>
+                                <input type="submit" name="submit" value="Kontakta mig" class="btn waves-effect waves-light selling-button pink-bg pink-bg-hover"></input>
                             </div>
                         </div>
                     </form>
